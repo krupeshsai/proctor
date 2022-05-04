@@ -1,0 +1,23 @@
+.emptyhome {
+   margin: 0 40px;
+}
+.home img{
+    width: 474px;
+    height: 294px;
+}
+
+.home{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 70px auto;
+}
+
+.home h2{
+    color: rgba(255, 255, 255, 0.5);
+    width : 60vh;
+    text-align:start;
+    font-size: 1.1rem;
+}
+

@@ -1,0 +1,82 @@
+.login{
+   width: 424px;
+   height: 534px;
+   background: #232527;
+   box-shadow: 7px 8px 52px rgba(0, 0, 0, 0.35);
+   margin: 60px auto;
+
+}
+
+.login img{
+   width: 69px;
+   height: 69px;
+   display: flex;
+   margin: auto ;
+   padding-top: 56px;
+   padding-bottom: 46px;
+}
+
+.form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 250px;
+   margin: auto;
+}
+
+.form input{
+
+   width: 250px;
+   margin-top: 24px;
+   border: none;
+   background: #232527;
+   color: rgba(255, 255, 255, 0.5);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.5) ;
+   height: 35px;
+   padding: 8px 0px 0px;
+  
+}
+
+.reset{
+   display: flex;
+   flex-direction: column;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   line-height: 15px ;
+    font-size: 12px;
+   overflow: hidden; 
+   text-overflow: ellipsis; 
+   text-align: center;
+   text-decoration-line: underline;
+   color: rgba(255, 255, 255, 0.5);
+   padding-top: 12px;
+   margin-bottom: 45px;
+ 
+}
+
+.formBtn{
+display: flex;
+margin: auto;
+background: #FFFFFF;
+padding: 8px 36px;
+border: none;
+font-weight: 600;
+font-size: 1rem;
+line-height: 36px;
+text-align: center;
+color: #131415;
+cursor: pointer;
+margin-top: 30px;
+transform: all .5s ease;
+}
+
+.formBtn:hover{
+   background:linear-gradient(90deg, rgb(11, 139, 178) 0%, rgba(46,171,176,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+.error{
+   color:red;
+   font-size: .7rem;
+}

@@ -1,0 +1,60 @@
+.Nav{
+    background-color: #232527;
+    height: 42px;
+    padding: 10px 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav p{
+  font-size: .9rem;
+
+}
+
+.action{
+   
+    cursor: pointer;
+}
+
+.action i {
+    padding: 0 20px;
+    
+}
+
+.linkStyle{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.max{
+   
+    font-size: .6rem;
+    border: 2px solid #f5f5f5;
+    box-sizing: border-box;
+}
+
+.search{
+ color: rgba(255, 255, 255, 0.5);
+ 
+}
+
+.search input{
+    color: rgba(255, 255, 255, 0.5);
+width: 571px;
+height: 42px;
+background: #131415;
+border: none;
+padding-left: 42px;
+
+
+}
+
+.search i{
+  position: relative;
+  left: 32px;
+
+
+    font-size: .8rem;
+}

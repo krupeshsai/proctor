@@ -1,0 +1,46 @@
+.loginBox{
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    width: 914px;
+    height: 72vh;
+    background: #232527;
+    box-shadow: 7px 8px 52px rgba(0, 0, 0, 0.35);
+}
+
+.boxInner{
+margin: 0 72px; 
+}
+
+.boxInner img{
+    margin-top: 76px;
+    margin-bottom: 88px;
+}
+
+.boxInner h2{
+   margin: 0;
+    width: 70vh;
+    font-weight: 600;
+}
+
+.btn{
+   margin-top: 38px;
+   width: 207px;
+height: 60px;
+text-align: center;
+padding: 12px 28px 12px 40px;
+font-size: 1.1rem;
+border: none;
+cursor: pointer;
+transition: all .5s ease;
+
+}
+
+.btn i{
+    padding-left: 20px;
+    font-size: 0.9rem;
+}
+
+.btn:hover{
+  background:linear-gradient(90deg, rgb(11, 139, 178) 0%, rgba(46,171,176,1) 35%, rgba(0,212,255,1) 100%);
+}

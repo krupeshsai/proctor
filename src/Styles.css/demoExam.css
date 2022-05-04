@@ -1,0 +1,84 @@
+.demoexam{
+    margin: 0 40px;
+    margin-bottom: 50px;
+}
+
+.demolink{
+    color: #f5f5f5;
+    margin:  auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.wrapper{
+width: 1277px;
+background: #232527;
+box-shadow: 7px 8px 52px rgba(0, 0, 0, 0.35);
+margin: 20px auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 101px;
+    margin: 0 30px;
+}
+.header p{
+    cursor: pointer;
+}
+.header-title{
+    line-height: 0;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.header-title p{
+    font-size: .8rem;
+}
+.main-dd{
+    padding-bottom: 30px;
+    
+}
+
+.main-list{
+    display: flex;
+    flex-direction: column;
+   
+}
+.main-item{
+    width: 1190px;
+    height: 77px;;
+    background: #484C50;
+    margin: 0 30px;
+    margin-bottom: 16px;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-item p{
+    width: 35vh;
+}
+
+.main-item button{
+    background:#f5f5f5;
+    border: none;
+    padding: 12px 40px;
+    width: 163px;
+    height: 51px;
+    cursor: pointer;
+    transform: all .5s ease-in-out;
+    
+    font-weight: 540;
+    font-size: .82rem;
+    font-style: normal;
+    color: #131415;
+}
+
+.main-item button:hover{
+    background: rgba(255, 255, 255, 0.5);
+}

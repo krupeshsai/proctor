@@ -1,0 +1,153 @@
+.exam{
+    margin: 0 100px;
+}
+
+.timer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clock span{
+    padding-right: 5px;
+}
+
+.exmbtn{
+ padding-top: 20px;
+
+}
+
+.exit{
+width: 110px;
+height: 44px;
+background: #FFFFFF;
+color: #131415;
+padding: 12px 40px;
+border: none;
+font-style: normal;
+font-weight: 545;
+font-size: 1rem;
+margin-right: 36px;
+cursor: pointer;
+transition: all .4s ease-out;
+
+}
+
+.exit:hover{
+    background:linear-gradient(90deg, rgba(178, 11, 11, 0.832) 0%, rgb(176, 46, 46) 35%, rgba(255, 0, 0, 0.947) 100%);
+}
+
+.submit{
+    width: 140px;
+    height: 44px;
+    padding: 12px 40px;
+    background: #FFFFFF;
+    color: #131415;
+    border: none;
+cursor: pointer;
+font-style: normal;
+font-weight: 545;
+font-size: 1rem;
+transition: all .5s ease-in;
+}
+.submit:hover{
+    background:linear-gradient(90deg, rgb(11, 139, 178) 0%, rgba(46,171,176,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+.box{
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ques-inner{
+    line-height: 36px;
+    text-align: justify;
+    width: 870px;
+    height: auto;
+    padding: 2px 25px;
+background: #232527;
+box-shadow: 7px 8px 52px rgba(0, 0, 0, 0.35);
+}
+
+
+
+
+.ans-inner{
+  
+margin-top: 20px;
+width: 920px;
+height: 56px;
+padding: 2px 25px;
+border: none;
+color:#FFFFFF;
+background: #232527;
+
+}
+
+.answer button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.answer button:hover{
+background: rgba(255, 255, 255, 0.5);
+}
+
+.right-box{
+    margin: 50px 0;
+}
+
+.rb-inner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vh;
+   
+    
+}
+.rb-box{  
+background: #232527;
+width: 32px;
+height: 32px;
+margin-right: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.rb-btn{
+display: flex;
+justify-content: space-around;
+margin: 40px auto;
+}
+
+.rb-next , .rb-prev{
+    font-style: normal;
+font-weight: 545;
+font-size: 1rem;
+  border: none;
+  background: #131415;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.rb-next:hover , .rb-prev:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.not-selected{
+    background: #232527;
+}
+.correct{
+    background: green;
+
+}
+
+.wrong{
+    color: red;
+}

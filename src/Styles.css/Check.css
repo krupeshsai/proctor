@@ -1,0 +1,116 @@
+.check{
+    margin: 0 40px;
+}
+
+.check-link{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.check-link img{
+    width: 13px;
+   padding-right: 6px;
+}
+
+.pic{
+   
+width: 410px;
+height: 415px;
+}
+
+.check-main{
+  display: flex;
+ width: 70%;
+ margin: 60px auto;
+}
+
+.check-info{
+    margin: 0 100px;
+    line-height: 18px;
+    align-self: center;
+}
+
+.check-info p{
+    padding-bottom: 10px;
+}
+
+.span{
+    padding-right: 20px;
+   
+}
+
+
+
+.tick{
+    color:green;
+   
+}
+
+.cross{
+    color: red;
+   
+}
+
+.check-main button{
+
+width: 161px;
+height: 51px;
+border: none;
+background: #FFFFFF;
+color: #131415;
+
+
+margin-top: 20px;
+font-weight: 545;
+font-size: 1rem;
+transition: all .4s ease;
+
+}
+
+.check-main button:hover{
+    background:linear-gradient(90deg, rgb(11, 139, 178) 0%, rgba(46,171,176,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+@keyframes fade-in{
+    from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+.q{
+    animation-name: fade-in;
+    animation-duration: 2s;    
+}
+
+.w{
+    animation-name: fade-in;
+    animation-duration: 3s;    
+}
+
+.e{
+    animation-name: fade-in;
+    animation-duration: 4s;    
+}
+.r{
+    animation-name: fade-in;
+    animation-duration: 5s;    
+}
+
+.t{
+    animation-name: fade-in;
+    animation-duration: 6s;    
+}
+
+.y{
+    animation-name: fade-in;
+    animation-duration: 7s;    
+}
+
+.u{
+    animation-name: fade-in;
+    animation-duration: 8s;    
+}
+
+.i{
+    animation-name: fade-in;
+    animation-duration: 8s;    
+}
