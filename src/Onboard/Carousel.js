@@ -38,7 +38,7 @@ export default function Guideline() {
         id: "4",
         img : four,
         title: "Protecting rights, respecting pricvacy",
-        buttonText: <Link  to="/emptyhome" style={{textDecoration: "none",color:"#f5f5f5"}}>Go to dashboard</Link>
+        buttonText: <Link  to="/demoexam" style={{textDecoration: "none",color:"#f5f5f5"}}>Go to dashboard</Link>
     },
 ]
 

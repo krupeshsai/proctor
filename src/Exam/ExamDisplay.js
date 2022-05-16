@@ -5,7 +5,6 @@ import Result from './Result'
 
 const questions = [
   {
-    
     questionText: 'Which of the following is the correct way to make the number three?',
     answerOptions: [
      
@@ -16,7 +15,6 @@ const questions = [
     ],
   },
   {
-  
     questionText: 'Which of the following is the correct way to make the number seven?',
     answerOptions: [
     
@@ -27,7 +25,7 @@ const questions = [
     ],
   },
   {
- 
+
     questionText: "Let's find the sum of 41 and 20.",
     answerOptions: [
     
@@ -38,7 +36,7 @@ const questions = [
     ],
   },
   {
-    
+
     questionText: "Let's find the sum of 11, 9 and 16.",
     answerOptions: [
      
@@ -49,7 +47,7 @@ const questions = [
     ],
   },
   {
-    
+
     questionText: "Consider the equation : 5 + 2 = __ + 6 . Let's identify the missing number that makes the equation true.",
     answerOptions: [
      
@@ -71,10 +69,9 @@ export default function ExamDisplay() {
   const [score, setScore] = useState(0)
   const [showResult , setShowResult] = useState(false)
   const [clicked , setClicked] = useState(false)
- 
- 
-  
 
+ 
+ 
   const pages = [];
   for (let i = 0; i <= questions.length; i++) {
     pages.push(i);
@@ -102,13 +99,12 @@ export default function ExamDisplay() {
   }
 
 
- 
-
-
 	const handleAnswerOptionClick = (isCorrect) => {
 		if (isCorrect) {
 			setScore(score + 1);
+     
 		}
+    
     setClicked(true)
 	};
 
@@ -154,11 +150,10 @@ export default function ExamDisplay() {
         {questions[currentQuestion].answerOptions.map((answer) => {
           return (
             <div  key={answer.id}>
-            <button className={`ans-inner ${clicked ? answer.isCorrect ? "correct" : "wrong" : "not-selected"}`} onClick={() => handleAnswerOptionClick(answer.isCorrect)}>{answer.answerText}</button>
+            <button className={`ans-inner ${clicked ? answer.isCorrect ? "correct" : "wrong" : "not-selected"}`} onClick={() => handleAnswerOptionClick(answer.isCorrect)} disabled={clicked}>{answer.answerText}</button>
             </div>
           )
-        }
-							
+        }		
 						)}
       
         </div>
@@ -170,12 +165,10 @@ export default function ExamDisplay() {
 
 
         <div className='rb-inner'>
-        {Array.from({length : sum}).map((item ,index) => (
+       {Array.from({length : sum}).map((item ,index) => (
           <div key={index} className="rb-box" ><p>1</p></div> ))}
         
       </div>  
-        
-      
             <div className='rb-btn'>
             <button className='rb-prev' onClick={handlePrev} 
             disabled={currentQuestion === pages[0] ? true : false} ><span><i className="fa-solid fa-angle-left"></i></span> Previous</button>
