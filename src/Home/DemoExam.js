@@ -63,7 +63,7 @@ export default function DemoExam() {
        
      />
      ))}
-     <Link className='demolink' to="/demoexam">Go to dashboard</Link>
+     <Link className='demolink' to="/emptyhome">Go to dashboard</Link>
    </div>
   )
 }

@@ -7,7 +7,7 @@ import {BrowserRouter as Router,
   Route,} from "react-router-dom"
 import LoginBox from './Spash/LoginBox';
 import PasswordReset from './Login/PasswordReset';
-// import EmptyHome from './Home/EmptyHome';
+import EmptyHome from './Home/EmptyHome';
 import Guideline from "./Onboard/Carousel"
 import DemoExam from './Home/DemoExam';
 import Check from './Exam/Check';
@@ -29,7 +29,7 @@ function App() {
       <Route path="/login" element={<Login/>} />
       <Route path="/passwordReset" element={<PasswordReset/>} />
       <Route path="/guideline" element={<Guideline/>} />
-      {/* <Route path="/emptyhome" element={<EmptyHome/>}/> */}
+      <Route path="/emptyhome" element={<EmptyHome/>}/>
       <Route path="/demoexam" element={<DemoExam/>} />
       <Route path="/check" element={<Check/>}/>
       <Route path="/exam" element={<Exam/>} />
